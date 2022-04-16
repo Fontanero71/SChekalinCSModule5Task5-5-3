@@ -7,12 +7,12 @@ namespace SChekalinCSModule5Task5_5_3
         static void Main(string[] args)
         {
             Console.WriteLine("Напишите что-то");
-            var str = Console.ReadLine();
+            var saidword = Console.ReadLine();
 
             Console.WriteLine("Укажите глубину эха");
             var deep = int.Parse(Console.ReadLine());
 
-            Echo(str, deep);
+            Echo(saidword, deep);
 
             Console.ReadKey();
         }
