@@ -6,6 +6,7 @@ namespace SChekalinCSModule5Task5_5_3
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Напишите что-то");
             var saidword = Console.ReadLine();
 
@@ -26,6 +27,7 @@ namespace SChekalinCSModule5Task5_5_3
                 modif = modif.Remove(0, 2);
             }
 
+            Console.BackgroundColor = (ConsoleColor)deep;
             Console.WriteLine("..." + modif);
 
             if (deep > 1)
